@@ -4,11 +4,10 @@
     <PackageId>Pat.Sender.DataProtectionEncryption</PackageId>
     <Description>Purplebricks support for sending encrypted messages</Description>
     <Company>Purplebricks</Company>
-    <buildCounter Condition=" '$(buildCounter)' == '' ">0</buildCounter>
-    <Version>2.0.$(buildCounter)</Version>
+    <Version>0.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="PB.ITOps.Messaging.DataProtection" Version="1.0.4" />
-    <PackageReference Include="Pat.Sender" Version="2.0.33" />
+    <PackageReference Include="Pat.DataProtection" Version="1.0.2" />
+    <PackageReference Include="Pat.Sender" Version="2.0.2" />
   </ItemGroup>
 </Project>
