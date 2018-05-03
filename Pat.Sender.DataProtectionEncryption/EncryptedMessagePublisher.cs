@@ -1,4 +1,4 @@
-﻿using PB.ITOps.Messaging.DataProtection;
+﻿using Pat.DataProtection;
 
 namespace Pat.Sender.DataProtectionEncryption
 {

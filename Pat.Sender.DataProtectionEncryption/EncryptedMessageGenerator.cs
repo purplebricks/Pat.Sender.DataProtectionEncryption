@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.Azure.ServiceBus;
 using Newtonsoft.Json;
-using PB.ITOps.Messaging.DataProtection;
+using Pat.DataProtection;
 using Pat.Sender.MessageGeneration;
 
 namespace Pat.Sender.DataProtectionEncryption
