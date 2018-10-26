@@ -25,8 +25,8 @@ namespace Pat.Sender.DataProtectionEncryption
         public Message GenerateMessage(object payload)
         {
             var messageBody = JsonConvert.SerializeObject(payload);
-            var protectedmessageBody = _dataProtector.Protect(messageBody);
-            var message = new Message(Encoding.UTF8.GetBytes(protectedmessageBody));
+            var protectedMessageBody = _dataProtector.Protect(messageBody);
+            var message = new Message(Encoding.UTF8.GetBytes(protectedMessageBody));
             message.UserProperties.Add("Encrypted", true);
             return message;
         }
