@@ -15,7 +15,7 @@
     <RepositoryUrl>https://github.com/purplebricks/Pat.Sender.DataProtectionEncryption</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Pat.DataProtection" Version="1.0.10" />
+    <PackageReference Include="Pat.DataProtection" Version="1.0.11" />
     <PackageReference Include="Pat.Sender" Version="4.1.19" />
   </ItemGroup>
 </Project>
