@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net452;net471;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net472;</TargetFrameworks>
     <PackageId>Pat.Sender.DataProtectionEncryption</PackageId>
     <Description></Description>
     <Company>Purplebricks</Company>
@@ -14,8 +15,9 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/purplebricks/Pat.Sender.DataProtectionEncryption</RepositoryUrl>
   </PropertyGroup>
+  
   <ItemGroup>
-    <PackageReference Include="Pat.DataProtection" Version="1.0.11" />
-    <PackageReference Include="Pat.Sender" Version="4.1.19" />
+    <PackageReference Include="Pat.DataProtection" Version="2.0.14" />
+    <PackageReference Include="Pat.Sender" Version="6.0.27" />
   </ItemGroup>
 </Project>
